@@ -1,0 +1,29 @@
+# Ambiente virtual
+venv/
+
+# Banco de dados
+db.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+
+# Django
+*.log
+local_settings.py
+.env
+staticfiles/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
