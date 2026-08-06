@@ -19,10 +19,10 @@ export const profile = {
 };
 
 export const skills = {
-    languages: ["Python", "JavaScript","PostgresSQL"],
+    languages: ["Python", "JavaScript", "HTML", "CSS", "SQL"],
     frameworks: ["Django"],
-    tools: ["Git", "PostgreSQL", "VS Code"],
-    concepts: ["REST API", "CRUD", "POO", "CI/CD"],
+    tools: ["Git", "PostgreSQL", "SQLite", "VS Code"],
+    concepts: ["REST API", "CRUD", "POO", "CI/CD", "Autenticacao", "Deploy"],
 };
 
 export const projects = [
@@ -45,6 +45,13 @@ export const projects = [
         description: "API de calculo de juros compostos diarios a partir de taxa mensal. Tabela de amortizacao e projecoes financeiras.",
         tech: ["Python", "Django", "JavaScript"],
         github: "https://github.com/johndenv/portifolio_denv_john",
+        highlight: true,
+    },
+    {
+        name: "VpMotos",
+        description: "Sistema de gestao de uma oficina de motos com controle de clientes, produtos, fornecedores, ordens de servico e financeiro.",
+        tech: ["Python", "Django", "PostgreSQL"],
+        github: "https://github.com/johndenv/vpmotos",
         highlight: true,
     },
 ];
