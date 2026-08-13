@@ -28,15 +28,15 @@ export const skills = {
 export const projects = [
     {
         name: "ProxyServer",
-        description: "Servidor proxy de alta performance para roteamento e cache de requisicoes HTTP/HTTPS. Solucao robusta para seguranca e otimizacao de trafego de rede.",
-        tech: ["Python", "Django", "PostgreSQL"],
+        description: "Servidor proxy HTTP/HTTPS em Python (asyncio) com pool de conexoes (Keep-Alive), controle de dominios (blacklist/whitelist), autenticacao Basic, dashboard de metricas, logs estruturados e interface grafica Tkinter. Dockerizado e configuravel via .env.",
+        tech: ["Python", "asyncio", "FastAPI", "Docker"],
         github: "https://github.com/johndenv/ProxyServer",
         highlight: true,
     },
     {
         name: "Authentication-Django",
-        description: "Pagina de registro e login profissional com autenticacao segura, sistema de tokens e protecao contra ataques.",
-        tech: ["Python", "Django", "SQLite"],
+        description: "Sistema de autenticacao em Django 6 com cadastro via codigo de e-mail (6 digitos), login com lembrar de mim, biometria facial como 2o fator (LGPD, template cifrado com Fernet/AES-128) e painel do usuario.",
+        tech: ["Python", "Django", "PostgreSQL", "OpenCV"],
         github: "https://github.com/johndenv/Authentication-Django",
         highlight: true,
     },
